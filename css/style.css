@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(0, 0%, 100%);
+  font-family: "Spartan", sans-serif;
+  padding-bottom: 10%;
+  font-size: 15px;
+}
+
+.top-container {
+  width: 80%;
+  margin: auto;
+}
+
+.icon img {
+  color: orange;
+}
+#top {
+  /* border: 1px solid; */
+}
+
+h1.first-heading {
+  text-align: center;
+  /* margin-top: 10%; */
+  /* padding: 20px 65px; */
+  /* width: 70%;
+  margin: 10% auto; */
+  margin-top: 10%;
+  margin-bottom: 20px;
+  color: hsl(300, 43%, 22%);
+  font-weight: bold;
+  font-size: 2.5em;
+}
+
+p.first-paragraph {
+  /* text-align: center;
+  padding: 0px 30px;
+  margin-bottom: 20px; */
+  /* text-justify: auto; */
+  /* width: 80%;
+  margin: auto; */
+  text-align: center;
+  line-height: 1.6em;
+}
+
+#review {
+  margin-top: 5vh;
+}
+
+div.rev {
+  background-color: hsl(300, 24%, 96%);
+  /* width: 80%;
+  margin: auto; */
+  margin-bottom: 15px;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.rev .fa {
+  color: orange;
+}
+
+.icon {
+  text-align: center;
+  margin-bottom: 7px;
+  letter-spacing: 2px;
+}
+
+#comments {
+  margin-top: 60px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.rev h5 {
+  color: hsl(300, 43%, 22%);
+  font-weight: 700;
+  text-align: center;
+  font-weight: bold;
+}
+.main {
+  background-color: hsl(300, 43%, 22%);
+  border-radius: 10px;
+  color: hsl(300, 24%, 96%);
+  min-height: 32vh;
+}
+
+.main p {
+  width: 80%;
+  margin: auto;
+  padding-bottom: 20px;
+  margin-top: 10px;
+  /* border: 1px solid; */
+  font-size: 13px;
+  line-height: 1.6em;
+}
+
+.name {
+  color: hsl(300, 24%, 96%);
+  margin-bottom: 4px;
+}
+
+.verified {
+  color: hsl(333, 80%, 67%);
+}
+
+img {
+  display: block;
+  border-radius: 50%;
+  width: 50px;
+  margin-right: 25px;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+  padding: 50px 0 15px 0;
+}
+
+@media screen and (min-width: 700px) {
+  .top-container {
+    display: flex;
+  }
+
+  .top {
+    width: 40%;
+    border: 1px solid;
+  }
+  #review {
+    width: 50%;
+    margin-top: 8%;
+  }
+
+  h1.first-heading {
+    text-align: left;
+    width: 45%;
+  }
+
+  p.first-paragraph {
+    text-align: left;
+    width: 52%;
+  }
+
+  /* review ratings */
+  .rev {
+    display: flex;
+    flex-direction: row;
+  }
+
+  /* user comments */
+  #comments {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  div.main {
+    width: 32%;
+  }
+
+  div.icon {
+    margin-bottom: 0;
+  }
+
+  div h5 {
+    padding-top: 2px;
+    margin-left: 15px;
+  }
+
+  /* Transform */
+
+  div.two {
+    transform: translateX(25px);
+  }
+  div.three {
+    transform: translateX(50px);
+  }
+
+  div.second {
+    transform: translateY(20px);
+  }
+
+  div.third {
+    transform: translateY(40px);
+  }
+}
